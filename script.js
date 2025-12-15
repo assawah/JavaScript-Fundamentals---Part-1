@@ -13,15 +13,29 @@ console.log(population);
 //let isIsland = false;
 let language;
 console.log(typeof isIsland);
-console.log(typeof population); 
+console.log(typeof population);
 console.log(typeof language);
 console.log(typeof countrys);
 // -----------------------
 //let, const, and var
 
-language = 'Arabic';
-const country= "Egypt";
+language = "Arabic";
+const country = "Egypt";
 const continent = "Africa";
 const isIsland = false;
+//-------------------------------
+//Basic Operators
+console.log(population / 2);
+console.log(++population);
+console.log(population > 6);
+console.log(population < 33);
+let description =
+  country +
+  "is in " +
+  continent +
+  ", and its " +
+  population +
+  " million speak " +
+  language;
 
-
+console.log(description);

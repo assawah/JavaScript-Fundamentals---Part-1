@@ -25,11 +25,12 @@ const continent = "Africa";
 const isIsland = false;
 //-------------------------------
 //Basic Operators
+
 console.log(population / 2);
 console.log(++population);
 console.log(population > 6);
 console.log(population < 33);
-let description =
+const description =
   country +
   "is in " +
   continent +
@@ -39,3 +40,6 @@ let description =
   language;
 
 console.log(description);
+//-------------------------------
+//Strings and Template Literals
+description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
